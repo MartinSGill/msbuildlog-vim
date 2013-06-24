@@ -28,7 +28,7 @@ syn match initialItems /^Initial Items:\_.\{-}\n\n/ fold contains=itemList
 " Items
 syn match itemList contained /^\w\_.\{-}\n\n/ fold contains=itemName,itemEntry
 syn match itemName contained /^\S\+\n/
-syn match itemEntry contained /^\s\+\S\+\n/
+syn match itemEntry contained /^\s\{4}\S.\{-}\n/
 
 syn region name contained start=/\v"/ end=/\v"/
 
