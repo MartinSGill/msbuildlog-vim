@@ -86,7 +86,7 @@ hi def link actionIdValue   Number
 
 hi def link doneAction      PreProc          
 hi def link startAction     PreProc      
-hi def link skippedAction   Ignore
+hi def link skippedAction   Comment
 hi def link usingTask       Define
 hi def link taskParameter   Define
 hi def link globalProps     Define
